@@ -24,7 +24,7 @@ import static java.lang.annotation.RetentionPolicy.CLASS;
  * {@link OnItemLongClickListener#onItemLongClick(android.widget.AdapterView, android.view.View,
  * int, long) onItemLongClick} may be used on the method.
  *
- *  * The annotated method won't be triggered if the View contains @see 
+ * The annotated method won't be triggered if the View contains @see 
  * <a href="http://developer.android.com/reference/android/view/View.html#isFocusable()">focusable</a> 
  * sub-view whose focusable attribute was true.
  * 
