@@ -21,6 +21,11 @@ import static java.lang.annotation.RetentionPolicy.CLASS;
  * </code></pre>
  * Any number of parameters from {@link OnItemClickListener#onItemClick(android.widget.AdapterView,
  * android.view.View, int, long) onItemClick} may be used on the method.
+ * 
+ * 
+ * The annotated method won't be triggered if the View contains @see 
+ * <a href="http://developer.android.com/reference/android/view/View.html#isFocusable()">focusable</a> 
+ * sub-view whose focusable attribute was true.
  *
  * @see OnItemClickListener
  */
